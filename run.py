@@ -91,8 +91,8 @@ class ToOneFile():
 		for row in self.data_ordered:
 			keys, values = row[0], row[1]
 			if keys in self.without_duplicate:
-				value = tuple(sum(x) for x in zip(values, self.without_duplicate[keys]))
-				self.without_duplicate[keys] = value
+				values = tuple(sum(x) for x in zip(values, self.without_duplicate[keys]))
+				self.without_duplicate[keys] = values
 			else:
 				self.without_duplicate[keys] = values
 		return self.without_duplicate
@@ -145,7 +145,7 @@ class ToOneFile():
 			return None
 
 	def from_csv(self, filename, only_columns=False):
-		'''Возвращает список кортежей, считанных из csv-файла
+		'''Возвращает список словарей, считанных из csv-файла
 
 		filename: str
 			путь до считываемого файла
@@ -174,7 +174,7 @@ class ToOneFile():
 		return csv_data
 
 	def from_xml(self, filename, only_columns=False):
-		'''Возвращает список кортежей, считанных из xml-файла
+		'''Возвращает список словарей, считанных из xml-файла
 
 		filename: str
 			путь до считываемого файла
@@ -201,7 +201,7 @@ class ToOneFile():
 		return xml_data
 
 	def from_json(self, filename, only_columns=False):
-		'''Возвращает список кортежей, считанных из json-файла
+		'''Возвращает список словарей, считанных из json-файла
 
 		filename: str
 			путь до считываемого файла
