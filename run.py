@@ -81,12 +81,12 @@ class ToOneFile():
 		return self.data_ordered
 
 	def make_dict_without_duplicate(self):
-		'''Возвращает список словарей, с удаленными дубликатами
+		'''Возвращает словарь, с удаленными дубликатами
 		Числовые значения дубликатов суммируются
 
-		Имеет структуру [{(s, s, ..., s): (i, i, ..., i)},
+		Имеет структуру {(s, s, ..., s): (i, i, ..., i),
 							...
-						]
+						}
 		'''
 		for row in self.data_ordered:
 			keys, values = row[0], row[1]
