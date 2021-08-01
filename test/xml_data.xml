@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<root>
+    <objects>
+        <object name="D1">
+            <value>m</value>
+        </object>
+        <object name="D2">
+            <value>r</value>
+        </object>
+        <object name="D3">
+            <value>d</value>
+        </object>
+        <object name="M1">
+            <value>2</value>
+        </object>
+        <object name="M2">
+            <value>3</value>
+        </object>
+        <object name="M3">
+            <value>2</value>
+        </object>
+    </objects>
+    <objects>
+        <object name="D1">
+            <value>t</value>
+        </object>
+        <object name="D2">
+            <value>w</value>
+        </object>
+        <object name="D3">
+            <value>i</value>
+        </object>
+        <object name="M1">
+            <value>1</value>
+        </object>
+        <object name="M2">
+            <value>2</value>
+        </object>
+        <object name="M3">
+            <value>1</value>
+        </object>
+    </objects>
+    <objects>
+        <object name="D1">
+            <value>d</value>
+        </object>
+        <object name="D2">
+            <value>c</value>
+        </object>
+        <object name="D3">
+            <value>w</value>
+        </object>
+        <object name="M1">
+            <value>1</value>
+        </object>
+        <object name="M2">
+            <value>4</value>
+        </object>
+        <object name="M3">
+            <value>3</value>
+        </object>
+    </objects>
+    <objects>
+        <object name="D1">
+            <value>d</value>
+        </object>
+        <object name="D2">
+            <value>c</value>
+        </object>
+        <object name="D3">
+            <value>w</value>
+        </object>
+        <object name="M1">
+            <value>1</value>
+        </object>
+        <object name="M2">
+            <value>4</value>
+        </object>
+        <object name="M3">
+            <value>3</value>
+        </object>
+    </objects>
+</root>
